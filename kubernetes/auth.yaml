@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: dockerhub.maes.family/ap/auth:latest
+          image: dockerhub.maes.family/auth:latest
           ports:
           - containerPort: 3000
 ---

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: chat
-          image: dockerhub.maes.family/ap/chat:latest
+          image: dockerhub.maes.family/chat:latest
           ports:
           - containerPort: 3000
 ---
